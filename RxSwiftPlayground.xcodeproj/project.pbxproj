@@ -59,6 +59,16 @@
 		017F24AC2938DB9100AE188D /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		017F24AD2938DD4C00AE188D /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		017F24AE2938DE7200AE188D /* Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Relay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B0293A324D00AE188D /* Just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B1293A335400AE188D /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B3293A393A00AE188D /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B4293A3A2500AE188D /* range.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = range.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B5293A3A6700AE188D /* generate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = generate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B6293A3CE900AE188D /* repeateElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = repeateElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B7293A3D9500AE188D /* deferred.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = deferred.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B8293A3F1800AE188D /* create.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = create.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24B9293A450F00AE188D /* empty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = empty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		017F24BA293A451D00AE188D /* error.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = error.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1A28EB8CBBF2963FE7D6613B /* Pods_RxSwiftPlayground_RxSwiftPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPlayground_RxSwiftPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2033F5223ABD94C1D7DAB3CB /* Pods-RxSwiftPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftPlaygroundTests/Pods-RxSwiftPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2745F0BD762715E80DB96A6C /* Pods-RxSwiftPlayground-RxSwiftPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlayground-RxSwiftPlaygroundUITests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftPlayground-RxSwiftPlaygroundUITests/Pods-RxSwiftPlayground-RxSwiftPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +111,7 @@
 		017F246C2937142F00AE188D = {
 			isa = PBXGroup;
 			children = (
+				017F24B2293A335A00AE188D /* Create */,
 				017F24AE2938DE7200AE188D /* Relay.playground */,
 				017F24AD2938DD4C00AE188D /* AsyncSubject.playground */,
 				017F24AC2938DB9100AE188D /* ReplaySubject.playground */,
@@ -156,6 +167,23 @@
 				017F249B2937143200AE188D /* RxSwiftPlaygroundUITestsLaunchTests.swift */,
 			);
 			path = RxSwiftPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		017F24B2293A335A00AE188D /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				017F24B5293A3A6700AE188D /* generate.playground */,
+				017F24B1293A335400AE188D /* of.playground */,
+				017F24B0293A324D00AE188D /* Just.playground */,
+				017F24B3293A393A00AE188D /* from.playground */,
+				017F24B4293A3A2500AE188D /* range.playground */,
+				017F24B6293A3CE900AE188D /* repeateElement.playground */,
+				017F24B7293A3D9500AE188D /* deferred.playground */,
+				017F24B8293A3F1800AE188D /* create.playground */,
+				017F24B9293A450F00AE188D /* empty.playground */,
+				017F24BA293A451D00AE188D /* error.playground */,
+			);
+			path = Create;
 			sourceTree = "<group>";
 		};
 		9AC6065F3E17D28BA3E3AE4F /* Frameworks */ = {
