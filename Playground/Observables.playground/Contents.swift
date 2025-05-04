@@ -1,6 +1,12 @@
 import UIKit
 import RxSwift
 
+let disposeBag = DisposeBag()
+
+Observable.just("Hello Rx 6.9 ✨")
+    .subscribe(onNext: { print($0) })
+    .disposed(by: disposeBag)
+
 let o1 = Observable<Int>.create { (observer) -> Disposable in
     observer.on(.next(0))
     observer.onNext(1)
